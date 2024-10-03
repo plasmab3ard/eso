@@ -7,7 +7,7 @@
   # Note: hugo-theme-shell original: ["shell-powershell", "shell-ubuntu", "shell-retro"]
   # Note: or
   # Note: gogh theme: https://mayccoll.github.io/Gogh/
-  scheme = "Molokai"
+  scheme = "Bluloco Zsh Light"
 
   # Note: in terminal
   # [userName]@[pcName]:~/$ cd [workDir]
