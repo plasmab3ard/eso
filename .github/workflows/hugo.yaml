@@ -52,7 +52,7 @@ jobs:
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: debug0
         run: |
-          tree; rm go.mod ; tree
+          tree
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
@@ -68,7 +68,7 @@ jobs:
           cat ./public/index.html
       - name: debug2
         run: |
-          cat config.toml         
+          tree ; cat config.toml         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
