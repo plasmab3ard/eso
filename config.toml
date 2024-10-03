@@ -10,7 +10,7 @@ title = "ESO"
   # Note: hugo-theme-shell original: ["shell-powershell", "shell-ubuntu", "shell-retro"]
   # Note: or
   # Note: gogh theme: https://mayccoll.github.io/Gogh/
-  scheme = "BlulocoZshLight"
+  scheme = "Molokai"
 
   # Note: in terminal
   # [userName]@[pcName]:~/$ cd [workDir]
