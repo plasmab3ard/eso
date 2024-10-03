@@ -65,7 +65,7 @@ jobs:
           cat ./public/index.html
       - name: debug2
         run: |
-          tree         
+          cat config.toml         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
