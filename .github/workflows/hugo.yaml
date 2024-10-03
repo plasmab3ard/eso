@@ -57,11 +57,15 @@ jobs:
           TZ: America/Los_Angeles
         run: |
           hugo \
-            --logLevel debug --ignoreCache \
+            --gc \
+            --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: debug
         run: |
           cat ./public/index.html
+      - name: debug2
+        run: |
+          tree         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
