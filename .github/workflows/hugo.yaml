@@ -57,7 +57,7 @@ jobs:
           TZ: America/Los_Angeles
         run: |
           hugo \
-            -v --ignoreCache \
+            --logLevel debug --ignoreCache \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
