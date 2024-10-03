@@ -65,7 +65,7 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: debug
         run: |
-          tree ; grep -ri Molokai . ; cat config.toml ; cat ./public/index.html       
+          tree ; grep -ri scheme . ; cat config.toml ; cat ./public/index.html       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
