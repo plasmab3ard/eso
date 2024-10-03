@@ -50,7 +50,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: debug0
+      - name: debug
         run: |
           tree
       - name: Build with Hugo
@@ -60,16 +60,12 @@ jobs:
           TZ: America/Los_Angeles
         run: |
           hugo \
-            --config ./config.toml \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: debug
         run: |
-          cat ./public/index.html
-      - name: debug2
-        run: |
-          tree ; cat config.toml         
+          tree ; cat config.toml ; cat ./public/index.html       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
