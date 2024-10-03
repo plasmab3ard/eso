@@ -1,7 +1,3 @@
-baseURL = 'https://plasmab3ard.github.io/eso/'
-languageCode = 'en-us'
-title = 'ESO'
-
 [module]
 [[module.imports]]
     path = 'github.com/yukuro/hugo-theme-shell'
