@@ -20,8 +20,8 @@
   # ./[folderName]/
   # ...
   # Note: result of the tree command
-  userName = "jane"
-  pcName = "laptop"
+  userName = "root"
+  pcName = "tamriel"
   workDir = "mydir"
   profile = "profile.txt"
 
