@@ -69,4 +69,5 @@ title = "ESO"
   files = [ 
     ["healthden", "/builds/healthden.md"],
     ["rollerblade", "/builds/rollerblade.md"],
+    ["notes", "/notes/cfg.md"],
   ]
