@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://plasmab3ard.github.io/eso/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'ESO'
 
 [module]
 [[module.imports]]
