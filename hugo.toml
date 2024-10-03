@@ -29,7 +29,7 @@ title = "ESO"
   # Note: result of the tree command
   userName = "root"
   pcName = "tamriel"
-  workDir = ""
+  workDir = "eso"
   profile = "readme.txt"
 
   # Note: speed at which text is displayed on the terminal
